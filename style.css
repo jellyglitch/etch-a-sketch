@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 30px auto;
+    width: 480px;
+    border-style: solid;
+}
+
+.container div {
+    width: 30px;
+    height: 30px;
+}
+
+.etch {
+    background-color: blue;
+}

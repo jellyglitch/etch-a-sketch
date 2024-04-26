@@ -12,8 +12,9 @@ function createGrid(numOfSq, size){
         div.style.width = measurement+'px';
         div.style.height = measurement+'px';
         container.appendChild(div);
+        const randomColor = Math.floor(Math.random()*16777215).toString(16);
         div.addEventListener("mousemove", (e) => {
-            div.classList.add("etch");
+            div.style.backgroundColor = "#" + randomColor;
         });
         count++;
     }

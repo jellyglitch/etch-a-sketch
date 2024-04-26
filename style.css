@@ -6,8 +6,21 @@
     border-style: solid;
 }
 
-
-
 .etch {
     background-color: blue;
+}
+
+#button-container {
+    text-align: center;
+}
+
+#grid-button {
+    background-color: #5ac5ff;
+    width: 12rem;
+    height: 4rem;
+    margin: 2rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
 }
